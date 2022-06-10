@@ -17,11 +17,9 @@ git config --global --add core.editor vi
 <https://github.com/git-guides/git-init>
 
 ```tsx
-
 git remote add origin https://github.com/maximilianou/weekly54
-
 git push --set-upstream origin main --force
-
-
 ```
 
+----
+- 
