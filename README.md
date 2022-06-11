@@ -2,14 +2,34 @@
 # Weekly54 - environment
 
 ----
-- git variables user.email, user.name, core.editor
+- https://tailwindcss.com/docs/guides/nextjs
+```tsx  
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 
-<https://git-scm.com/docs/git-config>
+```
+----
+
+
+----
+- typescript nextjs react 
 
 ```tsx
-git config --global --add user.email maximilianou@gmail.com
-git config --global --add core.editor vi
+npx create-next-app step1 --typescript
 ```
+----
+
+----
+- nodejs, npm, nvm, 
+  
+<https://github.com/nvm-sh/nvm>
+
+```tsx
+nvm install 18.3
+nvm use 18.3
+```
+----
+
 
 ----
 - github remote repo
@@ -20,6 +40,17 @@ git config --global --add core.editor vi
 git remote add origin https://github.com/maximilianou/weekly54
 git push --set-upstream origin main --force
 ```
+----
+
 
 ----
-- 
+- git variables user.email, user.name, core.editor
+
+<https://git-scm.com/docs/git-config>
+
+```tsx
+git config --global --add user.email maximilianou@gmail.com
+git config --global --add core.editor vi
+```
+
+----
