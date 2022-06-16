@@ -12,6 +12,7 @@ npm install -D hardhat
 npx hardhat
 npx hardhat --verbose
 npx hardhat compile --verbose
+npx hardhat run scripts/deploy.js --network hardhat --verbose
 
 ```
 
