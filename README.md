@@ -2,6 +2,26 @@
 # Weekly54 - environment
 
 ----
+- 
+```tsx
+mkdir step2-hardhat
+cd step2-hardhat
+npm -y init
+npm install -D hardhat
+npx hardhat
+```
+<https://hardhat.org/tutorial/creating-a-new-hardhat-project>
+
+<https://hardhat.org/nodejs-versions>
+
+<https://hardhat.org/reference/solidity-support>
+
+
+```tsx
+npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
+
+```
+----
 - https://tailwindcss.com/docs/guides/nextjs
 ```tsx  
 npm install -D tailwindcss postcss autoprefixer

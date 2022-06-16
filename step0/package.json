@@ -1,0 +1,9 @@
+{
+  "scripts":{
+    "compile": "./node_modules/.bin/solcjs --bin --abi --include-path node_modules/ --base-path . SimpleStorage.sol",
+    "clean": "rm *.abi; rm *.bin "
+  },
+  "dependencies": {
+    "solc": "^0.8.12"
+  }
+}
