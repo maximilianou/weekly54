@@ -1,8 +1,26 @@
 
 # Weekly54 - environment
 
+
 ----
-- 
+
+```tsx
+mkdir step3-hardhat
+cd step3-hardhat
+npm -y init
+npm install -D hardhat
+npx hardhat
+npx hardhat --verbose
+npx hardhat compile --verbose
+
+```
+
+
+
+----
+
+----
+- hardhat steps
 ```tsx
 mkdir step2-hardhat
 cd step2-hardhat
