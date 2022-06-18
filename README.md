@@ -15,8 +15,11 @@ npx hardhat compile --verbose
 npx hardhat run scripts/deploy.js --network hardhat --verbose
 
 ```
+- [TODO] ( **testnets** add eth to.. ups! here we have some waste of time! )
+  
+<https://curiousstuff.eu/post/running-an-ethereum-rinkeby-full-node-in-2022/>
 
-
+geth - go ethereum - <geth.ethereum.org>
 
 ----
 

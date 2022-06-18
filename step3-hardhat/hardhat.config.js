@@ -11,6 +11,8 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 });
 
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL;
+const GOERLI_CHAINID = Number(process.env.GOERLI_CHAINID);
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
@@ -24,6 +26,8 @@ module.exports = { // defaultNetwork: 'hardhat',
   networks: {
     goerli: {
       url: GOERLI_RPC_URL,
+      accounts: [PRIVATE_KEY],
+      chainId: GOERLI_CHAINID,
     }
   },
 };
